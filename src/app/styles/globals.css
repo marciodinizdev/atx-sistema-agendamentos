@@ -5,15 +5,28 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
 }
 
 .header {
-    background-color: #0059ff;
-    color: white;
-    padding: 15px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    padding: 10px;
+    box-shadow: 1px 1px 10px 1px #3333333a;
+}
+
+.header nav {
+    width: 100%;
+    justify-content: center;
+}
+
+.header .nav-container {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
 }
 
 .header ul {
@@ -23,17 +36,18 @@ body {
 }
 
 .header a {
-    color: white;
+    color: #000;
     text-decoration: none;
     font-weight: bold;
 }
 
 .header a:hover {
-    text-decoration: underline;
+    color: #7f94ff;
 }
 
 .logo {
-    width: 60px;
+    width: 120px;
+    margin-top: 0.2rem;
 }
 
 .footer {
@@ -42,20 +56,27 @@ body {
     text-align: center;
     padding: 15px;
     position: fixed;
-    
     bottom: 0;
     width: 100%;
 }
 
 
 .container {
-    max-width: 1200px; /* Largura máxima do site */
-    margin: 0 auto; /* Centraliza na tela */
-    padding: 20px; /* Espaçamento interno */
+    
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 @media (max-width: 1300px) {
-    .container {
-        max-width: 90%; /* Para telas menores, usa 90% da largura */
+    .container, .header nav {
+        max-width: 90%;
     }
+}
+
+/* HomePage */
+.homepage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
