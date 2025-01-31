@@ -1,7 +1,7 @@
 export default function Header() {
     return (
         <header className="header">
-            <h1>Suporte Técnico</h1>
+            <h1>ATX Tech</h1>
             <nav>
                 <ul>
                     <li><a href="/">Início</a></li>

@@ -1,3 +1,12 @@
+* {
+    margin: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .header {
     background-color: #007bff;
     color: white;
@@ -28,8 +37,21 @@
     color: white;
     text-align: center;
     padding: 15px;
-    margin-top: 20px;
-    position: relative;
+    position: fixed;
+    
     bottom: 0;
     width: 100%;
+}
+
+
+.container {
+    max-width: 1200px; /* Largura máxima do site */
+    margin: 0 auto; /* Centraliza na tela */
+    padding: 20px; /* Espaçamento interno */
+}
+
+@media (max-width: 1300px) {
+    .container {
+        max-width: 90%; /* Para telas menores, usa 90% da largura */
+    }
 }
