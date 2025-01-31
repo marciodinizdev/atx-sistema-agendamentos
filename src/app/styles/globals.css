@@ -6,6 +6,11 @@ body {
     flex-direction: column;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.2rem;
+    
+}
+
+h1, p, li {
+    margin-bottom: 1rem;
 }
 
 .header {
@@ -19,6 +24,7 @@ body {
 .header nav {
     width: 100%;
     justify-content: center;
+    
 }
 
 .header .nav-container {
@@ -27,12 +33,14 @@ body {
     display: flex;
     gap: 15px;
     justify-content: space-between;
+    margin-top: 0.5rem;
 }
 
 .header ul {
     list-style: none;
     display: flex;
     gap: 15px;
+    align-items: center;
 }
 
 .header a {
@@ -62,10 +70,9 @@ body {
 
 
 .container {
-    
     max-width: 1200px;
-    margin: 0 auto;
     padding: 20px;
+    margin: 40px auto 0;
 }
 
 @media (max-width: 1300px) {
