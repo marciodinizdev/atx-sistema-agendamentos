@@ -1,7 +1,7 @@
 export default function Header() {
     return (
         <header className="header">
-            <h1>ATX Tech</h1>
+            <a href="/"><img className="logo" src="logo.png" alt="" /></a>
             <nav>
                 <ul>
                     <li><a href="/">Início</a></li>
