@@ -1,5 +1,6 @@
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import Subscribe from "./components/Subscribe";
 import "./styles/globals.css"
 
 export const metadata = {
@@ -17,6 +18,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 <main className="container">
                     {children}
                 </main>
+                <Subscribe />
                 <Footer />
             </body>
         </html>
