@@ -3,10 +3,6 @@
     box-sizing: border-box;
 }
 
-html {
-    overflow-y: scroll;
-}
-
 body {
     display: flex;
     flex-direction: column;
@@ -150,8 +146,12 @@ h1, p, li {
 /* Barra de rolagem */
 ::-webkit-scrollbar {
     width: 7px; 
-    height: 7px; 
+    height: 7px;
+
 }
 ::-webkit-scrollbar-thumb {
     background: #0455DB;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
 }
