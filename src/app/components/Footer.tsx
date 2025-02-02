@@ -16,7 +16,8 @@ export default function Footer() {
                 />
             </Link>
 
-            <p>&copy; {new Date().getFullYear()} ATX Tech - Todos os direitos reservados.</p>
+            <p>&copy; 2024 ATX Tech. Todos os direitos reservados | Site desenvolvido por <a href="https://github.com/marciodinizdev" target="_blank">marciodinizdev™</a></p>
+
         </footer>
     );
 }

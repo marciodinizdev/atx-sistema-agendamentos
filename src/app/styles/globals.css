@@ -1,12 +1,21 @@
 * {
     margin: 0;
+    box-sizing: border-box;
 }
+
+html {
+    overflow-y: scroll;
+}
+
 body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.2rem;
+    scroll-behavior: smooth;
+    background-color: #f8f8f8;
+
 }
 
 h1, p, li {
@@ -19,25 +28,27 @@ h1, p, li {
     align-items: center;
     padding: 10px;
     box-shadow: 1px 1px 10px 1px #3333333a;
+    background-color: #fff;
 }
 
 .header nav {
-    width: 100%;
-    justify-content: center;
+    width: 1200px;
 }
 
 .header .nav-container {
-    max-width: 900px;
+    max-width: 1200px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     margin-top: 0.5rem;
+    
 }
 
 .header ul {
     list-style: none;
     display: flex;
     gap: 2rem;
+    
 }
 
 .header a {
@@ -63,7 +74,13 @@ h1, p, li {
     color: white;
     text-align: center;
     padding: 15px;
-    margin-top: auto;
+    
+}
+
+.footer a {
+    color: #0455DB;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .container {
@@ -87,11 +104,12 @@ h1, p, li {
 
 /* Componente Subscribe */
 .subscribe-container {
-    background-color: #f8f8f8;
+    background-color: #fff;
     padding: 20px;
     text-align: center;
     border-top: 2px solid #ddd;
     margin-top: 20px;
+    margin-top: auto;
 }
 
 .subscribe-container h3 {
@@ -127,4 +145,13 @@ h1, p, li {
 
 .subscribe-container button:hover {
     background-color: #0F4EBF;
+}
+
+/* Barra de rolagem */
+::-webkit-scrollbar {
+    width: 7px; 
+    height: 7px; 
+}
+::-webkit-scrollbar-thumb {
+    background: #0455DB;
 }
