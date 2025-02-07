@@ -16,9 +16,9 @@ export default function Contato() {
             <h1>Contato</h1>
             <p>Entre em contato conosco preenchendo o formulário abaixo ou utilizando um dos nossos canais de atendimento.</p>
             <hr /> <br />
-            <h2>Informações de Contato</h2>
+            <h2>Informações de Contato</h2> <br />
             <p><strong>Email:</strong> suporte@atxtech.com</p>
-            <p><strong>Telefone:</strong> (11) 99999-9999</p>
+            <p><strong>Telefone:</strong> (83) 99999-9999</p>
             <p><strong>Endereço:</strong> Rua Prefeito João Inácio, S/N - Barra de Santa Rosa, PB</p>
 
             <section className="contato-form">
