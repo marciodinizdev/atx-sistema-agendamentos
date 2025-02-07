@@ -23,7 +23,7 @@ export default function AgendamentoPage() {
                 {agendado ? (
                     <div>
                         <p>Seu agendamento foi realizado com sucesso! Entraremos em contato para confirmar os detalhes.</p>
-                        <Image src="/agendamento-sucesso.png" alt="Agendamento realizado" width={200} height={200} />
+                        <Image src="/sucesso.png" alt="Agendamento realizado" width={200} height={200} />
                     </div>
                 ) : (
                     <form onSubmit={handleSubmit}>
